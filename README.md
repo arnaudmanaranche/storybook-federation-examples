@@ -21,3 +21,9 @@ Start apps
 Host app: http://localhost:3000
 
 Storybook app: http://localhost:3030
+
+## Inspiration
+
+[esbuild-federation-example](https://github.com/jacob-ebey/esbuild-federation-example)
+
+[storybook-webpack-federation-plugin](https://github.com/xolvio/storybook-webpack-federation-plugin)
