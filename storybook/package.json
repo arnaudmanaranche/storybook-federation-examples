@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": "true",
   "scripts": {
-    "start": "start-storybook -p 9009",
+    "dev": "start-storybook -p 9009",
     "build": "yarn build:storybook && yarn build:federation",
     "build:federation": "rm -rf storybook-static/federation && webpack --mode production",
-    "serve": "serve ./storybook-static -p 3030",
+    "start": "serve ./storybook-static -p 3030",
     "build:storybook": "build-storybook"
   },
   "dependencies": {
