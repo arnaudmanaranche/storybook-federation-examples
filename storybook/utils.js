@@ -45,8 +45,8 @@ const prepareRemotesObject = (remotes) =>
   remotes.length > 0 ? { remotes: returnRemotes(remotes) } : {};
 
 const returnStorybookConfig = ({ files = {}, remotes = [], shared }) => ({
-  name: 'storybookRemote',
-  filename: 'remote-entry.js',
+  name: 'remote',
+  filename: 'remote.js',
   shared: returnShared(shared),
   ...prepareExposesObject(
     returnPaths(
